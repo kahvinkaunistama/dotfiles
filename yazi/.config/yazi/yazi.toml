@@ -1,0 +1,13 @@
+[mgr]
+linemode    = "size"
+show_hidden = true
+sort_by     = "natural"
+
+[preview]
+wrap       = "yes"
+
+[opener]
+edit = [
+	{ run = '$EDITOR "$@"', block = true, for = "unix" },
+	{ run = "%EDITOR% %*",  block = true, for = "windows" },
+]

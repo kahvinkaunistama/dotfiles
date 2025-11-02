@@ -1,0 +1,37 @@
+
+[env]
+TERM = "screen-256color"
+
+[font]
+size = 12
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[keyboard]
+bindings = [
+  { key="f", mods="Control", action="SearchForward"},
+  { key="Space", mods="Control", chars="\u0000"},
+  { key="7", mods="Control|Alt", chars="{"},
+  { key="0", mods="Control|Alt", chars="}"},
+  { key="8", mods="Control|Alt", chars="["},
+  { key="9", mods="Control|Alt", chars="]"},
+]
+
+[window]
+opacity = 0.98
+option_as_alt = "both"
+decorations = "none"
+dynamic_padding = true
+
+[window.padding]
+x = 0
+y = 0
+
+[terminal]
+shell = "C:/Program Files/PowerShell/7/pwsh.exe"
+osc52 = "CopyPaste"
+
+[general]
+import = ["$HOME/themes/vague.toml"]
