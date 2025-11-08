@@ -130,24 +130,24 @@ workspaces:
     bind_to_monitor: 1
 
 window_rules:
-  - commands: ["move --workspace 7"]
-    match:
-      - window_process: { regex: "Spotify|Discord" }
-  - commands: ["move --workspace 2"]
+  - commands: ["move --workspace 1"]
     match:
       - window_process: { regex: "WindowsTerminal|alacritty|Code" }
+  - commands: ["move --workspace 2"]
+    match:
+      - window_process: { regex: "zen|firefox" }
   - commands: ["move --workspace 3"]
     match:
       - window_process: { regex: "chrome|unity" }
-  - commands: ["move --workspace 1"]
-    match:
-      - window_process: { regex: "zen|firefox" }
   - commands: ["move --workspace 4"]
     match:
       - window_process: { regex: "Obsidian" }
   - commands: ["move --workspace 5"]
     match:
       - window_process: { regex: "gimp-3" }
+  - commands: ["move --workspace 7"]
+    match:
+      - window_process: { regex: "Spotify|Discord" }
   - commands: ["ignore"]
     match:
       # Ignores any Zebar windows.
