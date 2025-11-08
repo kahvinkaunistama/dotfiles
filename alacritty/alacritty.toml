@@ -3,10 +3,10 @@
 TERM = "screen-256color"
 
 [font]
-size = 12
+size = 15
 
 [font.normal]
-family = "FiraCode Nerd Font"
+family = "Inconsolata Nerd Font"
 style = "Regular"
 
 [keyboard]
@@ -24,6 +24,7 @@ opacity = 0.98
 option_as_alt = "both"
 decorations = "none"
 dynamic_padding = true
+dimensions = { columns = 100, lines = 35}
 
 [window.padding]
 x = 0
